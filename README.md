@@ -34,7 +34,7 @@ Every hour, on the hour, dabo.guru erases all data sets which are over 2 hours o
 
 The data in the hourly "records" is stored indefinitely. But, as you can see, it does not contain server UUIDs, or any other server-identifying information. If your server has been offline for at least 3 hours, there will be no information stored about it.
 
-This service is similar to MCStats, but records vastly less information, and does not yet have any way to retrieve information. The only reason I've created it is to view one specific trend: server versions for each plugin version.
+This service is similar to MCStats, but records vastly less information, and has a much more basic interface. The only reason I've created it is to view one specific trend: server versions for each plugin version.
 
 By looking at what server versions are running the latest version of the plugin, it will be possible to see when it would be reasonable to drop support for a given Minecraft version.
 
