@@ -1,7 +1,9 @@
 plugin-statistics
 =================
 
-A small still-in-testing plugin statistics library. Reports to https://dabo.guru.
+The service this uses has since been shut down, and this library is no longer maintained. The following README.md is kept for posterity.
+
+A small plugin statistics library for reporting to https://dabo.guru.
 
 Data is reported to https://dabo.guru, and is reported once every hour, starting one hour from server startup (servers running for under one hour will not have any data reported).
 
@@ -41,10 +43,10 @@ By looking at what server versions are running the latest version of the plugin,
 Server Side
 -----------
 
-The source for the server side of plugin-statistics is located in https://github.com/daboross/dabo.guru. It's written in python, and uses the flask web framework.
+The source for the server side of plugin-statistics is located in [https://github.com/daboross/dabo.guru](https://github.com/daboross/dabo.guru/tree/761126625d43426a35d4f9ccb13fb2ec3cb59dd9). It's written in python, and uses the flask web framework.
 
 Note that dabo.guru is my personal website, and the repository does contain many files unrelated to statistics collection.
 
 Files (in dabo.guru) related to this service:
-- the statistics API: https://github.com/daboross/dabo.guru/blob/master/content/statistics_api.py
-- the script which deletes old data and makes hourly records: https://github.com/daboross/dabo.guru/blob/master/uwsgi_mules/record_statistics.py
+- the statistics API: [content/statistics_api.py](https://github.com/daboross/dabo.guru/blob/761126625d43426a35d4f9ccb13fb2ec3cb59dd9/content/statistics_api.py)
+- the script which deletes old data and makes hourly records: [uwsgi_mules/record_statistics.py](https://github.com/daboross/dabo.guru/blob/761126625d43426a35d4f9ccb13fb2ec3cb59dd9/uwsgi_mules/record_statistics.py)
